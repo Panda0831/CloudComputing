@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{
+	background-color:#82AAE3;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#243763;
+        align-items: center;    
+       
+}
+
+.frame{
+    margin:auto;
+    width: 800px;
+    align-content: center;
+}
+.displaytable tr td{
+	border:solid #666666 1px;
+}
+
+.titletext{
+	color:#FFFFFF;
+	font-size:13px;
+}
+table{
+    width:800px;
+    background-color: #f0c85f;
+}
+    
+
+
+.menupanel .btnbg{
+	height:40px;
+	border:solid 1px #FFFFFF;
+}
+
+.menupanel .btnbg .text{
+	margin-left:5px;
+	margin-top:12px;
+}
+
+
+.mainbody{
+	
+	background-color:#82AAE3;
+	width:810px;
+}
+
+.content{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.space{
+	height:20px;
+}
+
+.login{
+	margin:0 auto;
+	width:300px;
+
+}
+
+.box{
+        border-radius: 4px;
+	border:1px solid #333333;
+}
+.copyright{
+    display: flex;
+    
+    float: right;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+/*mainmenu css */
+.top-nav {
+		display: flex;
+		background: #eee;
+		width: 810px;
+		border-bottom: 1px #e1e1e1 solid;
+                border-radius: 10px;
+                justify-content: space-between;
+}
+ul{
+                display:flex;
+                padding: 0 10px;
+                justify-content: space-between;
+                }
+.top-nav-quicklink li {
+		display: flex;
+		}
+.top-nav-quicklink li a {			
+		color: #F48172;
+		padding: 6px 12px;
+		font-size: 20px;
+		color: #F48172;     
+		}
+.top-nav-quicklink li a:hover {
+		padding-top: 4px; 
+		border-bottom: 4px solid #000;
+		color: #000000;
+		}
+.top-nav-quicklink li a:hover i {
+		color: Dodgerblue;
+		}
